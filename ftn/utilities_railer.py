@@ -173,11 +173,3 @@ class FinestraDiDialogo(QtGui.QMainWindow):
 
 # fine finestra
 
-# app
-
-app = QtGui.QApplication(sys.argv)
-mainWindow = FinestraDiDialogo()
-mainWindow.show()
-app.exec_()
-
-# fine app
